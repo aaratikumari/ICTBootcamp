@@ -41,7 +41,39 @@
     </tr>
     <tr>
         <td>Ram</td>
-    </tr>     
+        <td>20</td>
+        <td>CSIT</td>
+    </tr>
+    <tr>
+        <td>Sita</td>
+        <td>21</td>
+        <td>BCA</td>
+    </tr>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form action="/submit" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female<br>
+        
+        <lable for="Course">Course:</lable>
+        <select id="Course" name="Course">
+            <option value="CSIT">CSIT</option>
+            <option value="BCA">BCA</option>
+        </select><br><br>
+
+        <lable for="Message">Message:</lable>
+        <textarea name="Message"rows="5" cols="40"></textarea><br><br>
+
+        <input type="Submit" value="Submit">
+    </form>    
     
 </body>
 </html>
