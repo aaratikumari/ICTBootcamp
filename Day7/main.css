@@ -1,0 +1,23 @@
+/*Element Selector */
+body {
+    background-color: aliceblue;
+}
+
+ul {
+    color: red;
+}
+
+/*Class Selector */
+.nav {
+    background-color: rgb(99, 253, 253);
+}
+
+.foot {
+    background-color: beige;
+}
+
+/* ID Selector */
+#title {
+    color: rgb(22, 5, 36);
+    text-align: center;
+}

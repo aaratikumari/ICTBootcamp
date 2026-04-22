@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(221, 233, 229);
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: red;
+    font-size: 60px;
+}
+
+div {
+    background-color: antiquewhite;
+}
